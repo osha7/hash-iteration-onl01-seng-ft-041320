@@ -10,8 +10,9 @@ def happy_birthday(birthday_kids)
   end
 end
 
-require "pry" 
+
 def age_appropriate_birthday(kids)
+  require "pry" 
   birthday_kids.each do |kids_name, age|
 binding.pry
     if age <= age_12 
