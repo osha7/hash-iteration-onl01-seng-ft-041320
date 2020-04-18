@@ -10,7 +10,7 @@ def happy_birthday(birthday_kids)
   end
 end
 
-require "pry"
+
 def age_appropriate_birthday(kids)
   birthday_kids.each do |kids_name, age|
     if age <= :age_12 
@@ -18,7 +18,6 @@ def age_appropriate_birthday(kids)
     end
   end
 end
-binding.pry
 #it "only prints the birthday greeting if the birthday kid 12 or younger" do
 #--------------
 #def select_winner(passengers)
