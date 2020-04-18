@@ -10,7 +10,7 @@ def happy_birthday(birthday_kids)
   end
 end
 
-require "protect_from_forgery"
+require "pry" 
 def age_appropriate_birthday(kids)
   birthday_kids.each do |kids_name, age|
     binding.pry
