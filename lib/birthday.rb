@@ -13,11 +13,12 @@ end
 
 def age_appropriate_birthday(kids)
   kids.each do |kids_name, age|
-    require "pry"
+require "pry"
     if age <= age_12 
-    binding.pry
+binding.pry
       puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
   end
+end
 end
 
 #it "only prints the birthday greeting if the birthday kid 12 or younger" do
